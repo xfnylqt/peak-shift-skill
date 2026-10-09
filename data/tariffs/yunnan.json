@@ -1,0 +1,24 @@
+{
+  "region": "云南省",
+  "province_code": "YN",
+  "region_code": "CN-YN",
+  "effective_date": "2025-01-01",
+  "accessed_date": "2026-10-09",
+  "source": {
+    "name": "云南省发展和改革委员会《关于进一步完善分时电价政策的通知》解读（云南网）",
+    "url": "https://m.yunnan.cn/system/2023/11/20/032839888.shtml",
+    "publisher": "云南省发展和改革委员会"
+  },
+  "confidence": "official",
+  "customer_type": "居民生活用电",
+  "optional": false,
+  "residential_tou_available": false,
+  "currency": "CNY",
+  "unit": "元/kWh",
+  "timezone": "Asia/Shanghai",
+  "notes": "居民执行阶梯目录电价，具体档次待补。",
+  "no_tou_reason": "政策实施范围明确为除电气化铁路牵引用电外、所有大工业用户及用电容量 100 千伏安及以上的一般工商业用户。**100 千伏安以下的一般工商业用户、居民和农业用电不执行分时电价。**",
+  "exception": "居民电动汽车充电桩分时电价政策另行规定，本次调整不作变更。",
+  "periods": [],
+  "tiers": []
+}
