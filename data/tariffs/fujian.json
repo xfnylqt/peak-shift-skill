@@ -1,0 +1,54 @@
+{
+  "region": "福建省",
+  "province_code": "FJ",
+  "region_code": "CN-FJ",
+  "effective_date": "2024-08-19",
+  "accessed_date": "2026-10-09",
+  "source": {
+    "name": "厦门市发展和改革委员会 - 居民水电气价格政策解读",
+    "url": "https://dpc.xm.gov.cn/xwdt/tzgg/202408/t20240819_2885399.htm",
+    "publisher": "厦门市发展和改革委员会 / 国网福建电力"
+  },
+  "confidence": "official",
+  "customer_type": "居民一户一表",
+  "optional": true,
+  "residential_tou_available": true,
+  "currency": "CNY",
+  "unit": "元/kWh",
+  "timezone": "Asia/Shanghai",
+  "notes": "电费计算规则为先阶梯、后分时。执行居民合表用户电价的用户不执行峰谷分时。谷段优惠 0.20 元/千瓦时。",
+  "periods": [
+    {
+      "name": "peak",
+      "label": "高峰时段",
+      "start": "08:00",
+      "end": "22:00",
+      "price": 0.5283
+    },
+    {
+      "name": "valley",
+      "label": "低谷时段",
+      "start": "22:00",
+      "end": "08:00",
+      "price": 0.2983
+    }
+  ],
+  "tiers": [
+    {
+      "tier": 1,
+      "range": "月 ≤230 千瓦时",
+      "flat": 0.4983
+    },
+    {
+      "tier": 2,
+      "range": "231–420 千瓦时",
+      "flat": 0.5483
+    },
+    {
+      "tier": 3,
+      "range": "≥421 千瓦时",
+      "flat": 0.7983
+    }
+  ],
+  "notes_tiers": "峰段在各档电价基础上 +0.03 元，谷段 −0.20 元。上表峰谷值为第一档推算。"
+}
