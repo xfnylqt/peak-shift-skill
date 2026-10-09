@@ -1,0 +1,56 @@
+{
+  "region": "上海市",
+  "province_code": "SH",
+  "region_code": "CN-SH",
+  "effective_date": "2026-01-01",
+  "accessed_date": "2026-10-09",
+  "source": {
+    "name": "《上海市市民价格信息指南（2026版）》居民用电价格",
+    "url": "https://m.weibo.cn/detail/5254691915303645",
+    "publisher": "上海市发展和改革委员会（经「上海发布」公布）"
+  },
+  "confidence": "official-media",
+  "customer_type": "居民一户一表",
+  "optional": true,
+  "residential_tou_available": true,
+  "currency": "CNY",
+  "unit": "元/kWh",
+  "timezone": "Asia/Shanghai",
+  "notes": "居民用电实行分时阶梯电价。峰时段自 6:00 起，谷段仅 8 小时，是谷电窗口最短的主要城市之一。",
+  "periods": [
+    {
+      "name": "peak",
+      "label": "峰时段",
+      "start": "06:00",
+      "end": "22:00",
+      "price": 0.617
+    },
+    {
+      "name": "valley",
+      "label": "谷时段",
+      "start": "22:00",
+      "end": "06:00",
+      "price": 0.307
+    }
+  ],
+  "tiers": [
+    {
+      "tier": 1,
+      "range": "年用电量 ≤3120 千瓦时",
+      "peak": 0.617,
+      "valley": 0.307
+    },
+    {
+      "tier": 2,
+      "range": "3121–4800 千瓦时",
+      "peak": 0.677,
+      "valley": 0.337
+    },
+    {
+      "tier": 3,
+      "range": "≥4801 千瓦时",
+      "peak": 0.977,
+      "valley": 0.487
+    }
+  ]
+}
