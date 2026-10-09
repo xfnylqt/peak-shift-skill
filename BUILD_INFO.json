@@ -1,0 +1,21 @@
+{
+  "built_from": {
+    "tariff": {
+      "repo": "cn-tou-tariff",
+      "commit": "1dff9fa"
+    },
+    "engine": {
+      "repo": "peak-shift-engine",
+      "commit": "90fea8e"
+    },
+    "studio": {
+      "repo": "peak-shift-studio",
+      "commit": "4f0e7ba"
+    }
+  },
+  "counts": {
+    "tariff_files": 32,
+    "engine_files": 5,
+    "viz_files": 3
+  }
+}
