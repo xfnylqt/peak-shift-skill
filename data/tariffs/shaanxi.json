@@ -1,0 +1,54 @@
+{
+  "region": "陕西省",
+  "province_code": "SN",
+  "region_code": "CN-SN",
+  "effective_date": "2026-01-01",
+  "accessed_date": "2026-10-09",
+  "source": {
+    "name": "陕西省发展和改革委员会 / 汉中市发展和改革委员会 / 定边县人民政府 - 居民峰谷分时电价政策",
+    "url": "https://fgw.hanzhong.gov.cn/hzfgwwz/qxdt/202407/6e7989ca40ba41f2ba97d72761cfc2c0.shtml",
+    "publisher": "陕西省发展和改革委员会 / 国网陕西"
+  },
+  "confidence": "official",
+  "customer_type": "居民一户一表",
+  "optional": true,
+  "residential_tou_available": true,
+  "currency": "CNY",
+  "unit": "元/kWh",
+  "timezone": "Asia/Shanghai",
+  "notes": "居民峰谷为自愿申请。峰段 08:00-20:00（+0.05），谷段 20:00-次日 08:00（−0.20）——峰段在 20:00 即结束，是谷段开始最早的省份之一。选择峰谷后，每年 11月1日至次年3月31日用电量不再执行阶梯电价，统一按第一档执行。",
+  "periods": [
+    {
+      "name": "peak",
+      "label": "峰段",
+      "start": "08:00",
+      "end": "20:00",
+      "price": 0.54
+    },
+    {
+      "name": "valley",
+      "label": "谷段",
+      "start": "20:00",
+      "end": "08:00",
+      "price": 0.29
+    }
+  ],
+  "tiers": [
+    {
+      "tier": 1,
+      "range": "采暖季外 一档",
+      "flat": 0.49
+    },
+    {
+      "tier": 2,
+      "range": "二档（+0.05）",
+      "flat": 0.54
+    },
+    {
+      "tier": 3,
+      "range": "三档（+0.30）",
+      "flat": 0.79
+    }
+  ],
+  "notes_tiers": "峰段 0.54、谷段 0.29（按第一档 0.49 加减推算，定边县告知书列示值）。"
+}
