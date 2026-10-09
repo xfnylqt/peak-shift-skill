@@ -1,0 +1,84 @@
+{
+  "region": "广东省",
+  "province_code": "GD",
+  "region_code": "CN-GD",
+  "effective_date": "2026-01-01",
+  "accessed_date": "2026-10-09",
+  "source": {
+    "name": "广东电网河源龙川供电局 - 居民电价政策公示 / 广州市从化区居民水电气价格政策问答",
+    "url": "https://www.longchuan.gov.cn/zwgk/zdlyxxgk/ggqsydwxx/content/mpost_645153.html",
+    "publisher": "广东电网有限责任公司 / 广州市从化区人民政府",
+    "doc_no": "粤发改价格〔2021〕331号"
+  },
+  "confidence": "official",
+  "customer_type": "居民一户一表",
+  "optional": true,
+  "residential_tou_available": true,
+  "currency": "CNY",
+  "unit": "元/kWh",
+  "timezone": "Asia/Shanghai",
+  "notes": "执行「峰平谷」三段而非两段，比价 1.7 : 1 : 0.38（不含政府性基金及附加）。低谷时段为 0:00-8:00，是少数在凌晨而非 22:00 进入谷段的省份。⚠️ 部分较早的地方文件记载的比价为 1.65:1:0.5、时段为 14:00-17:00/19:00-22:00，与现行省级文件不一致，本文件以更新的现行文件为准。",
+  "periods": [
+    {
+      "name": "peak",
+      "label": "高峰时段",
+      "start": "10:00",
+      "end": "12:00",
+      "price": 1.0011
+    },
+    {
+      "name": "flat",
+      "label": "平时段",
+      "start": "08:00",
+      "end": "10:00",
+      "price": 0.5889
+    },
+    {
+      "name": "peak",
+      "label": "高峰时段",
+      "start": "14:00",
+      "end": "19:00",
+      "price": 1.0011
+    },
+    {
+      "name": "flat",
+      "label": "平时段",
+      "start": "12:00",
+      "end": "14:00",
+      "price": 0.5889
+    },
+    {
+      "name": "flat",
+      "label": "平时段",
+      "start": "19:00",
+      "end": "24:00",
+      "price": 0.5889
+    },
+    {
+      "name": "valley",
+      "label": "低谷时段",
+      "start": "00:00",
+      "end": "08:00",
+      "price": 0.2238
+    }
+  ],
+  "tiers": [
+    {
+      "tier": 1,
+      "range": "夏季 0–260 度 / 非夏季 0–200 度",
+      "flat": 0.5889
+    },
+    {
+      "tier": 2,
+      "range": "夏季 261–600 / 非夏季 201–400",
+      "flat": null
+    },
+    {
+      "tier": 3,
+      "range": "夏季 ≥601 / 非夏季 ≥401",
+      "flat": null
+    }
+  ],
+  "price_derivation": "峰/谷单价按官方峰平谷比价 1.7 : 1 : 0.38 由第一档平段电价 0.58886875 元/kWh 推算，属估算值。",
+  "notes_tiers": "阶梯加价：第二档 +0.05、第三档 +0.30 元/度。分夏季（5-10月）与非夏季两套标准。"
+}
