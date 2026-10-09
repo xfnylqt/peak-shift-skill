@@ -1,0 +1,57 @@
+{
+  "region": "河北省",
+  "province_code": "HE",
+  "region_code": "CN-HE",
+  "effective_date": "2026-01-01",
+  "accessed_date": "2026-10-09",
+  "source": {
+    "name": "河北省发展和改革委员会关于明确居民峰谷分时电价政策的通知（冀发改能价〔2022〕1535号）",
+    "url": "https://www.fxq.gov.cn/zwgk/zfxxgk/fdgknr/sfxm/202602/t20260225_2190804.html",
+    "publisher": "河北省发展和改革委员会",
+    "doc_no": "冀发改能价〔2022〕1535号"
+  },
+  "confidence": "official",
+  "customer_type": "居民一户一表（阶梯用户）",
+  "optional": true,
+  "residential_tou_available": true,
+  "currency": "CNY",
+  "unit": "元/kWh",
+  "timezone": "Asia/Shanghai",
+  "notes": "居民自愿选择，执行时间以年度为周期且不得少于一年。1–10 千伏用户峰 0.50 / 谷 0.27。",
+  "periods": [
+    {
+      "name": "peak",
+      "label": "峰段",
+      "start": "08:00",
+      "end": "22:00",
+      "price": 0.55
+    },
+    {
+      "name": "valley",
+      "label": "谷段",
+      "start": "22:00",
+      "end": "08:00",
+      "price": 0.3
+    }
+  ],
+  "tiers": [
+    {
+      "tier": 1,
+      "range": "第一档",
+      "peak": 0.55,
+      "valley": 0.3
+    },
+    {
+      "tier": 2,
+      "range": "第二档（+0.05）",
+      "peak": 0.6,
+      "valley": 0.35
+    },
+    {
+      "tier": 3,
+      "range": "第三档（+0.30）",
+      "peak": 0.85,
+      "valley": 0.6
+    }
+  ]
+}
