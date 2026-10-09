@@ -1,0 +1,57 @@
+{
+  "region": "安徽省",
+  "province_code": "AH",
+  "region_code": "CN-AH",
+  "effective_date": "2026-01-01",
+  "accessed_date": "2026-10-09",
+  "source": {
+    "name": "阜阳市人民政府 - 安徽省一户一表居民（不满 1 千伏）电价标准 / 峰谷电变更业务问答",
+    "url": "https://www.fy.gov.cn/InKnowledgeBase/show/26094.html",
+    "publisher": "阜阳市人民政府 / 国网安徽"
+  },
+  "confidence": "official",
+  "customer_type": "居民一户一表",
+  "optional": true,
+  "residential_tou_available": true,
+  "currency": "CNY",
+  "unit": "元/kWh",
+  "timezone": "Asia/Shanghai",
+  "notes": "⚠️ 结构差异：安徽居民分时电价只划分「平段」与「谷段」两段，不设峰段。谷段优惠 0.25 元/千瓦时，为已收录省份中幅度最大。",
+  "periods": [
+    {
+      "name": "flat",
+      "label": "平段",
+      "start": "08:00",
+      "end": "22:00",
+      "price": 0.5953
+    },
+    {
+      "name": "valley",
+      "label": "谷段",
+      "start": "22:00",
+      "end": "08:00",
+      "price": 0.3153
+    }
+  ],
+  "tiers": [
+    {
+      "tier": 1,
+      "range": "月电量 0–180 度",
+      "peak": 0.5953,
+      "valley": 0.3153
+    },
+    {
+      "tier": 2,
+      "range": "181–350 度",
+      "peak": 0.6453,
+      "valley": 0.3653
+    },
+    {
+      "tier": 3,
+      "range": "350 度以上",
+      "peak": 0.8953,
+      "valley": 0.6153
+    }
+  ],
+  "notes_tiers": "不分时的全日阶梯电价为：一档 0.5653、二档 0.6153、三档 0.8653 元/度。"
+}
