@@ -1,0 +1,42 @@
+{
+  "region": "天津市",
+  "province_code": "TJ",
+  "region_code": "CN-TJ",
+  "effective_date": "2025-10-01",
+  "accessed_date": "2026-10-09",
+  "source": {
+    "name": "天津市发展和改革委员会 - 关于优化我市峰谷分时电价机制有关事项的通知",
+    "url": "https://fzgg.tj.gov.cn/zmhd/gzcx/syjgcx/gd/202509/t20250902_7124414.html",
+    "publisher": "天津市发展和改革委员会",
+    "doc_no": "津发改价管〔2025〕277号"
+  },
+  "confidence": "official",
+  "customer_type": "居民一户一表",
+  "optional": false,
+  "residential_tou_available": false,
+  "currency": "CNY",
+  "unit": "元/kWh",
+  "timezone": "Asia/Shanghai",
+  "notes": "居民按平段电价执行，实行阶梯电价。居民煤改电采暖另有峰谷政策。",
+  "no_tou_reason": "居民生活用电（不含居民电动汽车充电桩用电）暂不实施峰谷分时电价。",
+  "exception": "居民电动汽车充电桩用户可自愿选择执行峰谷分时：峰段 0.69、平段 0.51、谷段 0.30 元/千瓦时；7、8 月峰 15:00-23:00、谷 01:00-09:00；其他月份峰 08:00-10:00 及 16:00-22:00、谷 00:00-06:00 及 12:00-14:00。",
+  "periods": [],
+  "tiers": [
+    {
+      "tier": 1,
+      "range": "月 0–220 度",
+      "flat": 0.49
+    },
+    {
+      "tier": 2,
+      "range": "221–400 度",
+      "flat": 0.54
+    },
+    {
+      "tier": 3,
+      "range": "400 度以上",
+      "flat": 0.79
+    }
+  ],
+  "flat_price": 0.49
+}
