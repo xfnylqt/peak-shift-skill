@@ -1,0 +1,56 @@
+{
+  "region": "山西省",
+  "province_code": "SX",
+  "region_code": "CN-SX",
+  "effective_date": "2026-01-01",
+  "accessed_date": "2026-10-09",
+  "source": {
+    "name": "山西省发展和改革委员会 - 电采暖用电峰谷分时电价表 / 太原居民电价政策",
+    "url": "https://new.qq.com/rain/a/20260803A0B0Q600",
+    "publisher": "山西省发展和改革委员会 / 太原市发展和改革委员会"
+  },
+  "confidence": "official",
+  "customer_type": "居民一户一表",
+  "optional": true,
+  "residential_tou_available": true,
+  "currency": "CNY",
+  "unit": "元/kWh",
+  "timezone": "Asia/Shanghai",
+  "notes": "煤改电/电采暖用户峰段为 08:00-20:00、谷段 20:00-次日 08:00（峰段提前 2 小时结束）。居民阶梯以两个月为一周期，每周期一档 340 千瓦时，基础电价 0.477 元/千瓦时。",
+  "periods": [
+    {
+      "name": "peak",
+      "label": "峰段",
+      "start": "08:00",
+      "end": "22:00",
+      "price": 0.507
+    },
+    {
+      "name": "valley",
+      "label": "谷段",
+      "start": "22:00",
+      "end": "08:00",
+      "price": 0.2862
+    }
+  ],
+  "tiers": [
+    {
+      "tier": 1,
+      "range": "每周期（2 月）≤340 度",
+      "peak": 0.507,
+      "valley": 0.2862
+    },
+    {
+      "tier": 2,
+      "range": "340–520 度（+0.05）",
+      "peak": 0.557,
+      "valley": 0.3362
+    },
+    {
+      "tier": 3,
+      "range": "≥521 度（+0.30）",
+      "peak": 0.807,
+      "valley": 0.5862
+    }
+  ]
+}
