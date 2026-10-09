@@ -1,0 +1,112 @@
+{
+  "region": "山东省",
+  "province_code": "SD",
+  "region_code": "CN-SD",
+  "effective_date": "2026-01-01",
+  "accessed_date": "2026-10-09",
+  "source": {
+    "name": "威海市发展和改革委员会 - 山东省居民生活分时电价政策解读",
+    "url": "https://fgw.weihai.gov.cn/art/2026/6/22/art_53888_6434167.html",
+    "publisher": "山东省发展和改革委员会 / 国网山东省电力公司"
+  },
+  "confidence": "official",
+  "customer_type": "居民一户一表",
+  "optional": true,
+  "residential_tou_available": true,
+  "currency": "CNY",
+  "unit": "元/kWh",
+  "timezone": "Asia/Shanghai",
+  "notes": "自 2016 年起执行。采暖季（11月1日至次年3月31日）峰段为 08:00-20:00（提前 2 小时结束），谷段自 20:00 起，且谷段电价更低（−0.20 元而非 −0.17 元）。",
+  "periods": [
+    {
+      "name": "peak",
+      "label": "峰段",
+      "start": "08:00",
+      "end": "22:00",
+      "price": 0.5769
+    },
+    {
+      "name": "valley",
+      "label": "谷段",
+      "start": "22:00",
+      "end": "08:00",
+      "price": 0.3769
+    }
+  ],
+  "tiers": [
+    {
+      "tier": 1,
+      "range": "第一档",
+      "peak": 0.5769,
+      "valley": 0.3769
+    },
+    {
+      "tier": 2,
+      "range": "第二档（+0.05）",
+      "peak": 0.6269,
+      "valley": 0.4269
+    },
+    {
+      "tier": 3,
+      "range": "第三档（+0.30）",
+      "peak": 0.8769,
+      "valley": 0.6769
+    }
+  ],
+  "seasonal": [
+    {
+      "season": "非采暖季",
+      "months": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "periods": [
+        {
+          "name": "peak",
+          "label": "峰段/峰时段",
+          "start": "08:00",
+          "end": "22:00",
+          "price": 0.5769
+        },
+        {
+          "name": "valley",
+          "label": "谷段/谷时段",
+          "start": "22:00",
+          "end": "08:00",
+          "price": 0.3769
+        }
+      ]
+    },
+    {
+      "season": "采暖季",
+      "months": [
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "periods": [
+        {
+          "name": "peak",
+          "label": "峰段/峰时段",
+          "start": "08:00",
+          "end": "20:00",
+          "price": 0.5769
+        },
+        {
+          "name": "valley",
+          "label": "谷段/谷时段",
+          "start": "20:00",
+          "end": "08:00",
+          "price": 0.3469
+        }
+      ]
+    }
+  ]
+}
