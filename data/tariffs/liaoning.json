@@ -1,0 +1,41 @@
+{
+  "region": "辽宁省",
+  "province_code": "LN",
+  "region_code": "CN-LN",
+  "effective_date": "2026-01-01",
+  "accessed_date": "2026-10-09",
+  "source": {
+    "name": "昌图县供电公司官方答复 / 辽宁省发展和改革委员会 - 居民电采暖用户峰谷分时电价政策解读",
+    "url": "https://fgw.ln.gov.cn/fgw/index/tzgg/2025112718215774722/index.shtml",
+    "publisher": "辽宁省发展和改革委员会 / 国网辽宁"
+  },
+  "confidence": "official",
+  "customer_type": "居民一户一表",
+  "optional": false,
+  "residential_tou_available": false,
+  "currency": "CNY",
+  "unit": "元/kWh",
+  "timezone": "Asia/Shanghai",
+  "notes": "居民生活电价按辽发改价格〔2023〕236 号执行。",
+  "no_tou_reason": "现阶段辽宁省居民不执行峰谷分时电价。",
+  "exception": "仅**居民电采暖用户**在采暖期（11月1日至次年3月31日）执行峰谷分时，2025–2026 采暖期谷段为 11:00-14:00 及 21:00-次日 6:00（合计 12 小时）；不满 1 千伏峰 0.52 / 谷 0.26 元/千瓦时（计费方式一，年采暖电量上限 3500 千瓦时）。",
+  "periods": [],
+  "tiers": [
+    {
+      "tier": 1,
+      "range": "月 220 度以下",
+      "flat": 0.5
+    },
+    {
+      "tier": 2,
+      "range": "221–310 度",
+      "flat": 0.53
+    },
+    {
+      "tier": 3,
+      "range": "311 度及以上",
+      "flat": 0.8
+    }
+  ],
+  "flat_price": 0.5
+}
