@@ -1,0 +1,108 @@
+{
+  "region": "海南省",
+  "province_code": "HI",
+  "region_code": "CN-HI",
+  "effective_date": "2026-01-01",
+  "accessed_date": "2026-10-09",
+  "source": {
+    "name": "海南省 12345 政务服务热线答复（引用陵水县新能源家用充电桩电表电价表）/ 陵水黎族自治县人民政府",
+    "url": "https://12345.hainan.gov.cn/hnwsbsdt/hnwebsite/pages/default/appeal_details?guid=30c69108-0778-4c56-aba5-5bb8d297c5c1",
+    "publisher": "海南省发展和改革委员会 / 海南电网有限责任公司"
+  },
+  "confidence": "official",
+  "customer_type": "居民一户一表",
+  "optional": true,
+  "residential_tou_available": true,
+  "currency": "CNY",
+  "unit": "元/kWh",
+  "timezone": "Asia/Shanghai",
+  "notes": "分迎峰度夏（4–9月）与非迎峰度夏（10–3月）两套时段。尖峰电价执行时间为每年 5、6、7 月，尖峰时段 20:00-22:00。峰段 16:00-24:00 覆盖整个晚间，谷段在凌晨。",
+  "periods": [
+    {
+      "name": "peak",
+      "label": "峰时段",
+      "start": "16:00",
+      "end": "24:00",
+      "price": 1.0643
+    },
+    {
+      "name": "flat",
+      "label": "平时段",
+      "start": "00:00",
+      "end": "02:00",
+      "price": 0.6295
+    },
+    {
+      "name": "valley",
+      "label": "谷时段",
+      "start": "02:00",
+      "end": "10:00",
+      "price": 0.2568
+    },
+    {
+      "name": "flat",
+      "label": "平时段",
+      "start": "10:00",
+      "end": "16:00",
+      "price": 0.6295
+    }
+  ],
+  "tiers": [],
+  "seasonal": [
+    {
+      "season": "迎峰度夏",
+      "months": [
+        4,
+        5,
+        6,
+        7,
+        8,
+        9
+      ],
+      "periods": [
+        {
+          "name": "peak",
+          "label": "峰段/峰时段",
+          "start": "16:00",
+          "end": "24:00",
+          "price": 1.0643
+        },
+        {
+          "name": "valley",
+          "label": "谷段/谷时段",
+          "start": "02:00",
+          "end": "10:00",
+          "price": 0.2568
+        }
+      ]
+    },
+    {
+      "season": "非迎峰度夏",
+      "months": [
+        10,
+        11,
+        12,
+        1,
+        2,
+        3
+      ],
+      "periods": [
+        {
+          "name": "peak",
+          "label": "峰段/峰时段",
+          "start": "16:00",
+          "end": "24:00",
+          "price": 1.0643
+        },
+        {
+          "name": "valley",
+          "label": "谷段/谷时段",
+          "start": "00:00",
+          "end": "08:00",
+          "price": 0.2568
+        }
+      ]
+    }
+  ],
+  "notes_tiers": "尖峰时段（5、6、7 月 20:00-22:00）不满 1 千伏为 1.2755 元/千瓦时。"
+}
