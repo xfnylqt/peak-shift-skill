@@ -1,0 +1,25 @@
+{
+  "region": "吉林省",
+  "province_code": "JL",
+  "region_code": "CN-JL",
+  "effective_date": "2025-02-01",
+  "accessed_date": "2026-10-09",
+  "source": {
+    "name": "吉林省发展和改革委员会关于进一步优化分时电价政策的通知",
+    "url": "http://fgw.siping.gov.cn/zdzt/jggl/202501/t20250120_729664.html",
+    "publisher": "吉林省发展和改革委员会",
+    "doc_no": "吉发改价格〔2025〕11号"
+  },
+  "confidence": "official",
+  "customer_type": "居民一户一表",
+  "optional": false,
+  "residential_tou_available": false,
+  "currency": "CNY",
+  "unit": "元/kWh",
+  "timezone": "Asia/Shanghai",
+  "notes": "普通居民阶梯电价值未获取，待补。",
+  "no_tou_reason": "吉林居民生活用电执行阶梯电价，分时电价适用于工商业、电采暖与充换电设施用户。",
+  "exception": "①分户式居民电采暖（采暖期）：峰 08:00-21:00、谷 21:00-08:00，平时段 0.4250、高峰 0.5750、低谷 0.3250 元/千瓦时；②居民电动汽车充电设施：峰 06:00-22:00、谷 22:00-06:00（不设平段），在居民合表价基础上 ±0.15 元/千瓦时。",
+  "periods": [],
+  "tiers": []
+}
