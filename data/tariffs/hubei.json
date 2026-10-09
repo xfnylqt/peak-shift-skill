@@ -1,0 +1,45 @@
+{
+  "region": "湖北省",
+  "province_code": "HB",
+  "region_code": "CN-HB",
+  "effective_date": "2026-01-01",
+  "accessed_date": "2026-10-09",
+  "source": {
+    "name": "2026 年武汉电费标准（第三方网络汇编，未获官方原文核实）",
+    "url": "https://wenku.baidu.com/view/693ee8beb54e852458fb770bf78a6529657d3506.html",
+    "publisher": "第三方汇编（非官方）"
+  },
+  "confidence": "unverified",
+  "customer_type": "居民一户一表",
+  "optional": true,
+  "residential_tou_available": true,
+  "currency": "CNY",
+  "unit": "元/kWh",
+  "timezone": "Asia/Shanghai",
+  "notes": "⚠️【unverified】未能在湖北省发改委官网找到对应的居民分时电价原文。官网可确认存在多项分时电价政策（含节假日深谷电价机制、迎峰度夏临时调整），但均为工商业范畴。**核实前不应作为测算依据。**",
+  "periods": [
+    {
+      "name": "peak",
+      "label": "峰时段",
+      "start": "14:00",
+      "end": "17:00",
+      "price": 0.598
+    },
+    {
+      "name": "peak",
+      "label": "峰时段",
+      "start": "19:00",
+      "end": "22:00",
+      "price": 0.598
+    },
+    {
+      "name": "valley",
+      "label": "谷时段",
+      "start": "22:00",
+      "end": "14:00",
+      "price": 0.358
+    }
+  ],
+  "tiers": [],
+  "notes_tiers": "缺阶梯各档电价值。"
+}
