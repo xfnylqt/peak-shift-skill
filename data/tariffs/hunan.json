@@ -1,0 +1,59 @@
+{
+  "region": "湖南省",
+  "province_code": "HN",
+  "region_code": "CN-HN",
+  "effective_date": "2024-07-01",
+  "accessed_date": "2026-10-09",
+  "source": {
+    "name": "湖南省发展和改革委员会文件 - 居民电动汽车充电设施用电分时电价",
+    "url": "https://hunan.gov.cn/hnszf/xxgk/wjk/szbm/szfzcbm_19689/sfzhggwyh_19690/gfxwj_19691/202507/33728574/files/a09ea4bf42cd4e24b830023832f5b53b.pdf",
+    "publisher": "湖南省发展和改革委员会",
+    "doc_no": "湘发改价调规〔2024〕405号"
+  },
+  "confidence": "official",
+  "customer_type": "居民电动汽车充电设施",
+  "optional": true,
+  "residential_tou_available": true,
+  "currency": "CNY",
+  "unit": "元/kWh",
+  "timezone": "Asia/Shanghai",
+  "notes": "⚠️ 该分时电价适用于**居民电动汽车充电设施**（在居民合表电价基础上执行）。湖南居民生活用电本身的自愿分时政策请以国网湖南现行文件为准。平段 0.604、谷段 0.504、峰段 0.704 元/千瓦时。",
+  "periods": [
+    {
+      "name": "peak",
+      "label": "高峰时段",
+      "start": "11:00",
+      "end": "14:00",
+      "price": 0.704
+    },
+    {
+      "name": "flat",
+      "label": "平段",
+      "start": "14:00",
+      "end": "18:00",
+      "price": 0.604
+    },
+    {
+      "name": "peak",
+      "label": "高峰时段",
+      "start": "18:00",
+      "end": "23:00",
+      "price": 0.704
+    },
+    {
+      "name": "valley",
+      "label": "低谷时段",
+      "start": "23:00",
+      "end": "07:00",
+      "price": 0.504
+    },
+    {
+      "name": "flat",
+      "label": "平段",
+      "start": "07:00",
+      "end": "11:00",
+      "price": 0.604
+    }
+  ],
+  "tiers": []
+}
