@@ -1,0 +1,59 @@
+{
+  "region": "内蒙古自治区（蒙东电网）",
+  "province_code": "NM",
+  "region_code": "CN-NM",
+  "effective_date": "2024-01-01",
+  "accessed_date": "2026-10-09",
+  "source": {
+    "name": "内蒙古自治区发展和改革委员会 - 关于召开蒙东电网居民分时电价听证会的公告",
+    "url": "https://fgw.nmg.gov.cn/xxgk/zxzx/tzgg/202308/t20230808_2358787.html",
+    "publisher": "内蒙古自治区发展和改革委员会"
+  },
+  "confidence": "official-media",
+  "customer_type": "居民一户一表",
+  "optional": true,
+  "residential_tou_available": true,
+  "currency": "CNY",
+  "unit": "元/kWh",
+  "timezone": "Asia/Shanghai",
+  "notes": "⚠️ 数据源为 2023-08 发布的居民分时电价听证方案，实施状态与最终标准可能需要更新核实。蒙西地区另行政策。居民峰段在平段基础上 +0.13 元，谷段 −0.15 元。",
+  "periods": [
+    {
+      "name": "peak",
+      "label": "峰段",
+      "start": "07:30",
+      "end": "11:30",
+      "price": null
+    },
+    {
+      "name": "flat",
+      "label": "平段",
+      "start": "11:30",
+      "end": "17:00",
+      "price": null
+    },
+    {
+      "name": "peak",
+      "label": "峰段",
+      "start": "17:00",
+      "end": "21:00",
+      "price": null
+    },
+    {
+      "name": "valley",
+      "label": "谷段",
+      "start": "21:00",
+      "end": "06:00",
+      "price": null
+    },
+    {
+      "name": "flat",
+      "label": "平段",
+      "start": "06:00",
+      "end": "07:30",
+      "price": null
+    }
+  ],
+  "tiers": [],
+  "notes_tiers": "平段执行目录销售电价；峰 +0.13、谷 −0.15 元/千瓦时。具体平段电价值待核实。"
+}
