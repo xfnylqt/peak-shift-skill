@@ -1,0 +1,54 @@
+{
+  "region": "北京市",
+  "province_code": "BJ",
+  "region_code": "CN-BJ",
+  "effective_date": "2026-01-01",
+  "accessed_date": "2026-10-09",
+  "source": {
+    "name": "北京市通州区人民政府 - 执行峰谷电价的居民电采暖用户电价标准 / 国网北京 - 北京地区居民峰谷试点电价政策",
+    "url": "https://www.bjtzh.gov.cn/bjtz/zmhd/wdzsk/hdzx/gtghcxjs/gysy/2026052215424010445/index.shtml",
+    "publisher": "北京市通州区人民政府 / 国网北京市电力公司"
+  },
+  "confidence": "official",
+  "customer_type": "居民分户电采暖（煤改电，试点）",
+  "optional": true,
+  "residential_tou_available": true,
+  "currency": "CNY",
+  "unit": "元/kWh",
+  "timezone": "Asia/Shanghai",
+  "notes": "⚠️ 北京市普通居民（非电采暖）执行阶梯电价，不执行峰谷分时。居民峰谷为「试点」性质，主要面向电采暖 / 煤改电用户，执行峰谷后不再执行阶梯电价。",
+  "periods": [
+    {
+      "name": "peak",
+      "label": "高峰时段",
+      "start": "06:00",
+      "end": "21:00",
+      "price": 0.4883
+    },
+    {
+      "name": "valley",
+      "label": "低谷时段",
+      "start": "21:00",
+      "end": "06:00",
+      "price": 0.3
+    }
+  ],
+  "tiers": [
+    {
+      "tier": 1,
+      "range": "月用电量 1–240 度",
+      "flat": 0.4883
+    },
+    {
+      "tier": 2,
+      "range": "月用电量 241–400 度",
+      "flat": 0.5383
+    },
+    {
+      "tier": 3,
+      "range": "月用电量 400 度以上",
+      "flat": 0.7883
+    }
+  ],
+  "notes_tiers": "以上为「试行阶梯电价用户」不满 1 千伏标准（北京市发改委 2026-07-22 更新）。峰谷试点用户不执行阶梯。"
+}
