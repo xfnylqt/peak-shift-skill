@@ -1,0 +1,82 @@
+{
+  "region": "重庆市",
+  "province_code": "CQ",
+  "region_code": "CN-CQ",
+  "effective_date": "2026-06-01",
+  "accessed_date": "2026-10-09",
+  "source": {
+    "name": "重庆市发改委关于建立居民分时电价机制的通知（经重庆本地宝、开州之窗转载）",
+    "url": "https://m.cq.bendibao.com/mip/165970.shtm",
+    "publisher": "重庆市发展和改革委员会 / 国网重庆市电力公司"
+  },
+  "confidence": "official-media",
+  "customer_type": "居民一户一表",
+  "optional": true,
+  "residential_tou_available": true,
+  "currency": "CNY",
+  "unit": "元/kWh",
+  "timezone": "Asia/Shanghai",
+  "notes": "自 2026 年 6 月 1 日起执行。峰段在平段电价基础上 +0.10 元，谷段 −0.18 元。报道中给出的具体值为：08:00-11:00 0.52、11:00-17:00 0.62、17:00-20:00 0.52、20:00-22:00 0.62、22:00-24:00 0.52、00:00-08:00 0.34 元/千瓦时。",
+  "periods": [
+    {
+      "name": "flat",
+      "label": "平段",
+      "start": "08:00",
+      "end": "11:00",
+      "price": 0.52
+    },
+    {
+      "name": "peak",
+      "label": "高峰时段",
+      "start": "11:00",
+      "end": "17:00",
+      "price": 0.62
+    },
+    {
+      "name": "flat",
+      "label": "平段",
+      "start": "17:00",
+      "end": "20:00",
+      "price": 0.52
+    },
+    {
+      "name": "peak",
+      "label": "高峰时段",
+      "start": "20:00",
+      "end": "22:00",
+      "price": 0.62
+    },
+    {
+      "name": "flat",
+      "label": "平段",
+      "start": "22:00",
+      "end": "24:00",
+      "price": 0.52
+    },
+    {
+      "name": "valley",
+      "label": "低谷时段",
+      "start": "00:00",
+      "end": "08:00",
+      "price": 0.34
+    }
+  ],
+  "tiers": [
+    {
+      "tier": 1,
+      "range": "年用电量 ≤2400 千瓦时",
+      "flat": 0.52
+    },
+    {
+      "tier": 2,
+      "range": "2401–4800 千瓦时",
+      "flat": 0.57
+    },
+    {
+      "tier": 3,
+      "range": "≥4801 千瓦时",
+      "flat": 0.82
+    }
+  ],
+  "notes_tiers": "阶梯为不分时标准；分时电价在其基础上峰 +0.10、谷 −0.18。"
+}
