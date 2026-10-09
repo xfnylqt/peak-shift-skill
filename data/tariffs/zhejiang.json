@@ -1,0 +1,56 @@
+{
+  "region": "浙江省",
+  "province_code": "ZJ",
+  "region_code": "CN-ZJ",
+  "effective_date": "2026-01-01",
+  "accessed_date": "2026-10-09",
+  "source": {
+    "name": "仙居县人民政府 - 居民生活用电「峰谷电」线上申请办理流程",
+    "url": "http://www.zjxj.gov.cn/col/col1635432/art/2026/art_4b50cb0328ff4362a511f70a149564e6.html",
+    "publisher": "浙里办 / 国网浙江营销服务中心"
+  },
+  "confidence": "official",
+  "customer_type": "居民一户一表",
+  "optional": true,
+  "residential_tou_available": true,
+  "currency": "CNY",
+  "unit": "元/kWh",
+  "timezone": "Asia/Shanghai",
+  "notes": "峰谷电为居民自愿申请，选定后一年内不得变更。按年用电量执行三档阶梯。",
+  "periods": [
+    {
+      "name": "peak",
+      "label": "峰段",
+      "start": "08:00",
+      "end": "22:00",
+      "price": 0.568
+    },
+    {
+      "name": "valley",
+      "label": "谷段",
+      "start": "22:00",
+      "end": "08:00",
+      "price": 0.288
+    }
+  ],
+  "tiers": [
+    {
+      "tier": 1,
+      "range": "年用电量 ≤2760 千瓦时",
+      "peak": 0.568,
+      "valley": 0.288
+    },
+    {
+      "tier": 2,
+      "range": "2761–4800 千瓦时",
+      "peak": 0.618,
+      "valley": 0.338
+    },
+    {
+      "tier": 3,
+      "range": "≥4801 千瓦时",
+      "peak": 0.868,
+      "valley": 0.588
+    }
+  ]
+}
