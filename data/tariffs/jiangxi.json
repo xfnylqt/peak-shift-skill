@@ -1,0 +1,60 @@
+{
+  "region": "江西省",
+  "province_code": "JX",
+  "region_code": "CN-JX",
+  "effective_date": "2026-01-01",
+  "accessed_date": "2026-10-09",
+  "source": {
+    "name": "崇义县人民政府 - 关于居民用电消费的提示",
+    "url": "http://www.chongyi.gov.cn/cyxxxgk/gsd25/202609/8bca784868af49b7b1bd76debdd265c8.shtml",
+    "publisher": "崇义县人民政府 / 国网江西"
+  },
+  "confidence": "official",
+  "customer_type": "居民一户一表",
+  "optional": true,
+  "residential_tou_available": true,
+  "currency": "CNY",
+  "unit": "元/kWh",
+  "timezone": "Asia/Shanghai",
+  "notes": "峰段 +0.03 元、谷段 −0.12 元。谷段优惠幅度（0.12 元）在已收录省份中最小，错峰收益相对有限。执行合表电价的居民不能执行峰谷分时。",
+  "periods": [
+    {
+      "name": "peak",
+      "label": "高峰时段",
+      "start": "08:00",
+      "end": "22:00",
+      "price": 0.63
+    },
+    {
+      "name": "valley",
+      "label": "低谷时段",
+      "start": "22:00",
+      "end": "08:00",
+      "price": 0.48
+    }
+  ],
+  "tiers": [
+    {
+      "tier": 1,
+      "range": "年 ≤2160 千瓦时",
+      "flat": 0.6,
+      "peak": 0.63,
+      "valley": 0.48
+    },
+    {
+      "tier": 2,
+      "range": "2161–4200 千瓦时",
+      "flat": 0.65,
+      "peak": 0.68,
+      "valley": 0.53
+    },
+    {
+      "tier": 3,
+      "range": ">4200 千瓦时",
+      "flat": 0.9,
+      "peak": 0.93,
+      "valley": 0.78
+    }
+  ],
+  "notes_tiers": "全年以年为周期，遵循「先分时、后阶梯」原则。"
+}
