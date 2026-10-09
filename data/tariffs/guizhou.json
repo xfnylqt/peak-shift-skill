@@ -1,0 +1,42 @@
+{
+  "region": "贵州省",
+  "province_code": "GZ",
+  "region_code": "CN-GZ",
+  "effective_date": "2026-09-15",
+  "accessed_date": "2026-10-09",
+  "source": {
+    "name": "贵州省发展和改革委员会 - 贵州省能否执行夜间峰谷电收费？",
+    "url": "https://fgw.guizhou.gov.cn/hdjl/zsk/202609/t20260915_90872237.html",
+    "publisher": "贵州省发展和改革委员会",
+    "doc_no": "黔发改价格〔2023〕481号"
+  },
+  "confidence": "official",
+  "customer_type": "居民生活用电",
+  "optional": false,
+  "residential_tou_available": false,
+  "currency": "CNY",
+  "unit": "元/kWh",
+  "timezone": "Asia/Shanghai",
+  "notes": "合表用户及执行居民电价的非居民用户 0.4820 元/千瓦时。",
+  "no_tou_reason": "官方明确：**我省居民生活用电现行执行居民阶梯目录电价，暂未实行峰谷分时电价政策。**现阶段我省暂不具备实施居民分时电价的条件。",
+  "exception": "居民家庭自有车位配套安装的自用充电桩执行居民合表用户电价，暂不执行峰谷分时电价。",
+  "periods": [],
+  "tiers": [
+    {
+      "tier": 1,
+      "range": "第一档",
+      "flat": 0.4556
+    },
+    {
+      "tier": 2,
+      "range": "第二档",
+      "flat": 0.5056
+    },
+    {
+      "tier": 3,
+      "range": "第三档",
+      "flat": 0.7556
+    }
+  ],
+  "flat_price": 0.4556
+}
