@@ -1,0 +1,134 @@
+{
+  "region": "四川省",
+  "province_code": "SC",
+  "region_code": "CN-SC",
+  "effective_date": "2025-05-01",
+  "accessed_date": "2026-10-09",
+  "source": {
+    "name": "四川省发展和改革委员会 - 关于进一步调整我省分时电价机制的通知",
+    "url": "https://fgw.sc.gov.cn/sfgw/qtwj/2025/4/30/8f5b20c4de7e4df48faa04935e512111.shtml",
+    "publisher": "四川省发展和改革委员会",
+    "doc_no": "川发改价格〔2025〕185号"
+  },
+  "confidence": "official",
+  "customer_type": "居民一户一表",
+  "optional": true,
+  "residential_tou_available": true,
+  "currency": "CNY",
+  "unit": "元/kWh",
+  "timezone": "Asia/Shanghai",
+  "notes": "实行季节性差异化分时电价，一年三套时段。⚠️ 官方文件明确「一户一表」居民用户低谷时段为 23:00-次日 07:00，与电网通用峰平谷时段不同。电价值尚未从官方原文核实。",
+  "periods": [
+    {
+      "name": "peak",
+      "label": "高峰（春秋季）",
+      "start": "10:00",
+      "end": "12:00",
+      "price": null
+    },
+    {
+      "name": "flat",
+      "label": "平段（春秋季）",
+      "start": "12:00",
+      "end": "17:00",
+      "price": null
+    },
+    {
+      "name": "peak",
+      "label": "高峰（春秋季）",
+      "start": "17:00",
+      "end": "22:00",
+      "price": null
+    },
+    {
+      "name": "valley",
+      "label": "低谷（春秋季）",
+      "start": "22:00",
+      "end": "08:00",
+      "price": null
+    }
+  ],
+  "tiers": [],
+  "seasonal": [
+    {
+      "season": "春秋季",
+      "months": [
+        3,
+        4,
+        5,
+        6,
+        10,
+        11
+      ],
+      "periods": [
+        {
+          "name": "peak",
+          "label": "峰段/峰时段",
+          "start": "10:00",
+          "end": "12:00",
+          "price": null
+        },
+        {
+          "name": "valley",
+          "label": "谷段/谷时段",
+          "start": "22:00",
+          "end": "08:00",
+          "price": null
+        }
+      ]
+    },
+    {
+      "season": "夏季",
+      "months": [
+        7,
+        8,
+        9
+      ],
+      "periods": [
+        {
+          "name": "peak",
+          "label": "峰段/峰时段",
+          "start": "11:00",
+          "end": "18:00",
+          "price": null
+        },
+        {
+          "name": "valley",
+          "label": "谷段/谷时段",
+          "start": "01:00",
+          "end": "07:00",
+          "price": null
+        }
+      ]
+    },
+    {
+      "season": "冬季",
+      "months": [
+        12,
+        1,
+        2
+      ],
+      "periods": [
+        {
+          "name": "peak",
+          "label": "峰段/峰时段",
+          "start": "10:00",
+          "end": "12:00",
+          "price": null
+        },
+        {
+          "name": "valley",
+          "label": "谷段/谷时段",
+          "start": "00:00",
+          "end": "08:00",
+          "price": null
+        }
+      ]
+    }
+  ],
+  "notes_tiers": "居民阶梯 2026 年 7 月起夏季（7-9 月）第一档电量由 0-180 度扩大至 0-260 度。",
+  "pending": [
+    "居民阶梯各档电价值",
+    "分时电价相对平段的浮动比例"
+  ]
+}
