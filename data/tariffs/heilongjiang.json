@@ -1,0 +1,41 @@
+{
+  "region": "黑龙江省",
+  "province_code": "HL",
+  "region_code": "CN-HL",
+  "effective_date": "2025-11-01",
+  "accessed_date": "2026-10-09",
+  "source": {
+    "name": "黑龙江省电网销售电价表（国网鸡西供电公司 - 居民生活用电销售电价收费标准）",
+    "url": "https://jx.zwfw.hlj.gov.cn/cms_files/filemanager/1702886538/attach/202511/61c6995fa57f4ce58f187b6ce3a9e993.pdf",
+    "publisher": "国网黑龙江省电力有限公司"
+  },
+  "confidence": "official",
+  "customer_type": "居民一户一表",
+  "optional": false,
+  "residential_tou_available": false,
+  "currency": "CNY",
+  "unit": "元/kWh",
+  "timezone": "Asia/Shanghai",
+  "notes": "执行居民电价的非居民用户 0.513 元/千瓦时。",
+  "no_tou_reason": "黑龙江居民生活用电执行阶梯电价，未见普通居民峰谷分时；分时适用于电动车充电桩与煤改电电采暖。",
+  "exception": "①居民电动汽车充电桩：峰 07:00-08:00、09:00-11:30、15:30-20:00；谷 12:00-14:00、23:30-05:30；电价 峰 0.766238 / 平 0.513 / 谷 0.259763 元/千瓦时。②居民煤改电电采暖：峰 07:00-11:30、17:00-20:30；谷 20:30-次日 06:30；不满 1 千伏 峰 0.645 / 平 0.513 / 谷 0.2898 元/千瓦时。",
+  "periods": [],
+  "tiers": [
+    {
+      "tier": 1,
+      "range": "年 ≤2040 千瓦时",
+      "flat": 0.51
+    },
+    {
+      "tier": 2,
+      "range": "2041–3120 千瓦时",
+      "flat": 0.56
+    },
+    {
+      "tier": 3,
+      "range": ">3120 千瓦时",
+      "flat": 0.81
+    }
+  ],
+  "flat_price": 0.51
+}
