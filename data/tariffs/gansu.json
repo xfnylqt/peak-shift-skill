@@ -1,0 +1,79 @@
+{
+  "region": "甘肃省",
+  "province_code": "GS",
+  "region_code": "CN-GS",
+  "effective_date": "2022-05-16",
+  "accessed_date": "2026-10-09",
+  "source": {
+    "name": "甘肃省电网销售电价表（兰州新区转载）",
+    "url": "http://www.gslz.gov.cn/lzxzsyzcs/zczn/202205/t20220516_846542.html",
+    "publisher": "甘肃省发展和改革委员会 / 国网甘肃"
+  },
+  "confidence": "official",
+  "customer_type": "居民生活用电",
+  "optional": true,
+  "residential_tou_available": true,
+  "currency": "CNY",
+  "unit": "元/kWh",
+  "timezone": "Asia/Shanghai",
+  "notes": "⚠️ 数据发布日期为 2022-05，标准可能已有调整，建议核实。峰段 07:00-09:00、18:00-24:00；低谷 02:00-04:00、11:00-17:00。峰谷价差按平段上下浮动 50%（全省统一机制）。",
+  "periods": [
+    {
+      "name": "peak",
+      "label": "高峰",
+      "start": "07:00",
+      "end": "09:00",
+      "price": 0.759
+    },
+    {
+      "name": "flat",
+      "label": "平段",
+      "start": "09:00",
+      "end": "11:00",
+      "price": 0.51
+    },
+    {
+      "name": "valley",
+      "label": "低谷",
+      "start": "11:00",
+      "end": "17:00",
+      "price": 0.261
+    },
+    {
+      "name": "flat",
+      "label": "平段",
+      "start": "17:00",
+      "end": "18:00",
+      "price": 0.51
+    },
+    {
+      "name": "peak",
+      "label": "高峰",
+      "start": "18:00",
+      "end": "24:00",
+      "price": 0.759
+    },
+    {
+      "name": "valley",
+      "label": "低谷",
+      "start": "02:00",
+      "end": "04:00",
+      "price": 0.261
+    },
+    {
+      "name": "flat",
+      "label": "平段",
+      "start": "04:00",
+      "end": "07:00",
+      "price": 0.51
+    }
+  ],
+  "tiers": [
+    {
+      "tier": 1,
+      "range": "不满 1 千伏",
+      "flat": null
+    }
+  ],
+  "notes_tiers": "1 千伏及以上：高峰 0.7440 / 平段 0.5000 / 低谷 0.2560。"
+}
