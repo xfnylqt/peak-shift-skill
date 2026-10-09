@@ -1,0 +1,42 @@
+{
+  "region": "青海省",
+  "province_code": "QH",
+  "region_code": "CN-QH",
+  "effective_date": "2021-10-25",
+  "accessed_date": "2026-10-09",
+  "source": {
+    "name": "青海电网销售电价表（国网西宁供电公司 2024 年供电企业信息公开年报）",
+    "url": "https://www.95598.cn/omg-static//omg-static/99306201658026651085901505825409.pdf",
+    "publisher": "青海省发展和改革委员会 / 国网青海省电力公司",
+    "doc_no": "青发改价格〔2021〕667号"
+  },
+  "confidence": "official",
+  "customer_type": "居民生活用电",
+  "optional": false,
+  "residential_tou_available": false,
+  "currency": "CNY",
+  "unit": "元/kWh",
+  "timezone": "Asia/Shanghai",
+  "notes": "合表用户 0.3964（不满 1 千伏）。",
+  "no_tou_reason": "青海电网销售电价表显示，居民生活用电仅列示阶梯电价，未设峰谷分时栏目；峰谷分时适用于工商业及清洁供暖用户。",
+  "exception": "清洁取暖电锅炉可执行峰谷分时：谷段 09:00-19:00（0.25）、峰段 19:00-次日 01:00（0.45）、平段 01:00-09:00（0.35）元/千瓦时。",
+  "periods": [],
+  "tiers": [
+    {
+      "tier": 1,
+      "range": "月 ≤150 度",
+      "flat": 0.3771
+    },
+    {
+      "tier": 2,
+      "range": "151–230 度",
+      "flat": 0.4271
+    },
+    {
+      "tier": 3,
+      "range": ">230 度",
+      "flat": 0.6771
+    }
+  ],
+  "flat_price": 0.3771
+}
