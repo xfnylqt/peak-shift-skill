@@ -1,0 +1,82 @@
+{
+  "region": "广西壮族自治区",
+  "province_code": "GX",
+  "region_code": "CN-GX",
+  "effective_date": "2024-11-13",
+  "accessed_date": "2026-10-09",
+  "source": {
+    "name": "广西壮族自治区发展和改革委员会 - 关于动态调整峰谷分时电价机制的方案（征求意见）",
+    "url": "http://www.cnnes.cc/hangye/20241113/9623.html",
+    "publisher": "广西壮族自治区发展和改革委员会"
+  },
+  "confidence": "official-media",
+  "customer_type": "居民电动汽车充电设施",
+  "optional": true,
+  "residential_tou_available": true,
+  "currency": "CNY",
+  "unit": "元/kWh",
+  "timezone": "Asia/Shanghai",
+  "notes": "⚠️ 广西普通居民生活用电执行阶梯目录电价，未见执行峰谷分时；**居民电动汽车充电设施**可自愿申请峰谷分时（时段按工商业划分，不设尖峰）。平时段执行居民合表电价，峰 +0.10、谷 −0.10 元/千瓦时。",
+  "periods": [
+    {
+      "name": "peak",
+      "label": "峰时段",
+      "start": "16:00",
+      "end": "24:00",
+      "price": null
+    },
+    {
+      "name": "valley",
+      "label": "谷时段",
+      "start": "01:00",
+      "end": "07:00",
+      "price": null
+    },
+    {
+      "name": "valley",
+      "label": "谷时段",
+      "start": "12:00",
+      "end": "14:00",
+      "price": null
+    },
+    {
+      "name": "flat",
+      "label": "平时段",
+      "start": "00:00",
+      "end": "01:00",
+      "price": null
+    },
+    {
+      "name": "flat",
+      "label": "平时段",
+      "start": "07:00",
+      "end": "12:00",
+      "price": null
+    },
+    {
+      "name": "flat",
+      "label": "平时段",
+      "start": "14:00",
+      "end": "16:00",
+      "price": null
+    }
+  ],
+  "tiers": [
+    {
+      "tier": 1,
+      "range": "第一档",
+      "flat": 0.5283
+    },
+    {
+      "tier": 2,
+      "range": "第二档",
+      "flat": 0.5783
+    },
+    {
+      "tier": 3,
+      "range": "第三档",
+      "flat": 0.8283
+    }
+  ],
+  "notes_tiers": "居民合表电价 0.5491 元/千瓦时为充电设施分时的平段基准。"
+}
